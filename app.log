@@ -1,0 +1,10 @@
+2026-02-25 11:12:29,750 - INFO - Request: BTCUSDT, BUY, MARKET, 0.001, None
+2026-02-25 11:12:30,743 - ERROR - Error: APIError(code=-4164): Order's notional must be no smaller than 100 (unless you choose reduce only).
+2026-02-25 11:12:44,317 - INFO - Request: BTCUSDT, BUY, MARKET, 0.001, None
+2026-02-25 11:12:45,907 - ERROR - Error: APIError(code=-4164): Order's notional must be no smaller than 100 (unless you choose reduce only).
+2026-02-25 11:13:17,963 - INFO - Request: BTCUSDT, SELL, LIMIT, 0.001, 50000
+2026-02-25 11:13:19,303 - ERROR - Error: APIError(code=-4024): Limit price can't be lower than 61557.73.
+2026-02-25 11:14:24,200 - INFO - Request: BTCUSDT, BUY, MARKET, 0.002, None
+2026-02-25 11:14:24,764 - INFO - Response: {'orderId': 12544415592, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ1d770fb95ee67595d36ff6', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1771998265075}
+2026-02-25 11:14:43,889 - INFO - Request: ETHUSDT, BUY, MARKET, 0.05, None
+2026-02-25 11:14:44,419 - INFO - Response: {'orderId': 8428364564, 'symbol': 'ETHUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ5c492ccf67a27fcac2f455', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.050', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1771998284751}
